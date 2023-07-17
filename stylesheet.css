@@ -14,10 +14,30 @@ body {
   width: 28rem;
   border: none;
   border-radius: 20px;
+  position: relative;
+  top: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }
 
 #hero{
   width: 100%;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
+}
+
+
+/*elements*/
+
+.proceedButton{
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  width: 80%;
+  margin: 0 auto;
+  border: none;
+  border-radius: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
