@@ -48,29 +48,34 @@ body {
   margin: 0 auto;
   border: none;
   border-radius: 1rem;
-  display: grid;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
-  grid-template-columns: 1fr 2fr 1fr;
+  height: 6rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 2rem;
 }
 
 #musicIcon{
-  grid-row: 2/ span 2;
-  grid-column: 1/ span 1;
+  width: 3rem;
+  height: 3rem;
+  position: relative;
+  right: .5rem;
 }
 
 #annual{
-  grid-row: 2/ span 1;
-  grid-column: 2/ span 1;
+  line-height: .4rem;
+  position: relative;
+  right: 2.2rem;
+  text-align:justify;
 }
 
-#price{
-  grid-row: 3/ span 1;
-  grid-column: 2/ span 1;
+#annual p{
+  font-family: "Red Hat Display";
+  color: hsl(224, 23%, 55%);
 }
 
 #changeLink{
   text-decoration: underline;
   color: hsl(245, 75%, 52%);
-  grid-row: 2/span 2;
-  grid-column: 3/ span 1;
+  font-weight: 700;
 }
