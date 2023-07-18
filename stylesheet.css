@@ -15,7 +15,7 @@ body {
   border: none;
   border-radius: 20px;
   position: relative;
-  top: 10rem;
+  top: 5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -78,4 +78,23 @@ body {
   text-decoration: underline;
   color: hsl(245, 75%, 52%);
   font-weight: 700;
+}
+
+/*text*/
+
+h1{
+  position: relative;
+  top: 1.5rem;
+}
+
+h4{
+  color: hsl(224, 23%, 55%);
+}
+
+.maintext{
+  color: hsl(224, 23%, 55%);
+  margin-left: 3rem;
+  margin-right: 3rem;
+  margin-bottom: .6rem;
+  line-height: 1.8rem;
 }
