@@ -99,3 +99,28 @@ h4{
   margin-bottom: .6rem;
   line-height: 1.8rem;
 }
+
+@media screen and (max-width: 480px) {
+  .container{
+    width: 90%;
+    margin: 0 auto;
+  }
+  .label{
+    justify-content: space-between;
+  }
+  #musicIcon{
+    position: relative;
+    left: 1rem;
+  }
+
+  #annual{
+    position: relative;
+    left: .5rem;
+  }
+
+
+  #changeLink{
+    position: relative;
+    right: 1rem;
+  }
+}
